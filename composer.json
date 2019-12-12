@@ -1,0 +1,25 @@
+{
+	"name": "arziel/conditions",
+	"type": "library",
+	"license": "MIT",
+
+	"autoload": {
+		"classmap": [
+			"src"
+		]
+	},
+
+	"autoload-dev": {
+		"psr-4": {
+			"Arziel\\Conditions\\": "src",
+			"Arziel\\Conditions\\Tests": "tests"
+		}
+	},
+	"require-dev": {
+		"nette/tester": "^2.3"
+	},
+
+	"scripts": {
+		"tests": "php vendor/bin/tester tests --colors 1"
+	}
+}
